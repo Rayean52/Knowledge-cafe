@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "cover_photo": "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+      "title": "Mastering ES6: A Guide for Beginners",
+      "author_img": "https://uifaces.co/our-content/donated/6f6p85he.jpg",
+      "author": "Jane Doe",
+      "posted_date": "2025-04-01",
+      "reading_time": "5 min read",
+      "hashtags": ["beginners", "es6"]
+    },
+    {
+      "id": 2,
+      "cover_photo": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61",
+      "title": "Understanding let & const in JavaScript",
+      "author_img": "https://uifaces.co/our-content/donated/gPZwCbdS.jpg",
+      "author": "John Smith",
+      "posted_date": "2025-03-28",
+      "reading_time": "4 min read",
+      "hashtags": ["beginners", "es6"]
+    },
+    {
+      "id": 3,
+      "cover_photo": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f",
+      "title": "Arrow Functions Explained Simply",
+      "author_img": "https://uifaces.co/our-content/donated/KtCFjlD4.jpg",
+      "author": "Sara Lee",
+      "posted_date": "2025-03-20",
+      "reading_time": "6 min read",
+      "hashtags": ["beginners", "es6"]
+    },
+    {
+      "id": 4,
+      "cover_photo": "https://images.unsplash.com/photo-1523475496153-3c0f0a1e70b7",
+      "title": "Template Literals in ES6",
+      "author_img": "https://uifaces.co/our-content/donated/1H_7AxP0.jpg",
+      "author": "Michael Chen",
+      "posted_date": "2025-03-15",
+      "reading_time": "3 min read",
+      "hashtags": ["beginners", "es6"]
+    },
+    {
+      "id": 5,
+      "cover_photo": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "title": "Destructuring Made Easy",
+      "author_img": "https://uifaces.co/our-content/donated/bUkmHPKs.jpg",
+      "author": "Olivia Brown",
+      "posted_date": "2025-03-10",
+      "reading_time": "5 min read",
+      "hashtags": ["beginners", "es6"]
+    },
+    {
+      "id": 6,
+      "cover_photo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+      "title": "Exploring ES6 Modules",
+      "author_img": "https://uifaces.co/our-content/donated/BkF0jLWc.jpg",
+      "author": "Liam Wilson",
+      "posted_date": "2025-03-05",
+      "reading_time": "7 min read",
+      "hashtags": ["beginners", "es6"]
+    }
+  ]
+  
