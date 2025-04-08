@@ -6,7 +6,7 @@
       "author_img": "https://media.istockphoto.com/id/1176363686/vector/smiling-young-asian-girl-profile-avatar-vector-icon.jpg?s=612x612&w=0&k=20&c=QuyZJNKexFQgDPr9u91hKieWKOYbaFxPb0b0gwmd-Lo=",
       "author": "Jane Doe",
       "posted_date": "2025-04-01",
-      "reading_time": "5 min read",
+      "reading_time": 5,
       "hashtags": ["beginners", "es6"]
     },
     {
@@ -16,7 +16,7 @@
       "author_img": "https://img.freepik.com/premium-photo/profile-icon-white-background_941097-162627.jpg",
       "author": "John Smith",
       "posted_date": "2025-03-28",
-      "reading_time": "4 min read",
+      "reading_time": 4,
       "hashtags": ["beginners", "es6"]
     },
     {
@@ -26,7 +26,7 @@
       "author_img": "https://img.freepik.com/premium-photo/profile-icon-white-background_941097-162204.jpg",
       "author": "Sara Lee",
       "posted_date": "2025-03-20",
-      "reading_time": "6 min read",
+      "reading_time": 6,
       "hashtags": ["beginners", "es6"]
     },
     {
@@ -36,7 +36,7 @@
       "author_img": "https://img.freepik.com/premium-photo/profile-icon-white-background_941097-162519.jpg",
       "author": "Michael Chen",
       "posted_date": "2025-03-15",
-      "reading_time": "3 min read",
+      "reading_time": 7,
       "hashtags": ["beginners", "es6"]
     },
     {
@@ -46,7 +46,7 @@
       "author_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlMdV2dK2miCyBbBh5PBTz1eARgi-CWMr9yb_1xJebTHnPWSPEiN4l0pn_d_P4WytX1Mo&usqp=CAU",
       "author": "Olivia Brown",
       "posted_date": "2025-03-10",
-      "reading_time": "5 min read",
+      "reading_time": 5,
       "hashtags": ["beginners", "es6"]
     },
     {
@@ -56,7 +56,7 @@
       "author_img": "https://img.freepik.com/premium-photo/profile-icon-white-background_941097-162515.jpg",
       "author": "Liam Wilson",
       "posted_date": "2025-03-05",
-      "reading_time": "7 min read",
+      "reading_time": 3,
       "hashtags": ["beginners", "es6"]
     }
   ]

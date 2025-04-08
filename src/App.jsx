@@ -7,10 +7,16 @@ import State from './Components/State/State'
 
 function App() {
 
-  const [bookMark, setBookMark] = useState([])
+  const [bookMark, setBookMark] = useState([]);
+  const [timeCount, setTimeCount] = useState(0);
 
   const handleBookMark = (blog) => {
     setBookMark([...bookMark, blog])
+  }
+
+  const handleMarkAsRead = (time) => {
+    const newCount = timeCount + time;
+    setTimeCount(newCount);
   }
 
   return (
@@ -19,12 +25,16 @@ function App() {
 
       <div className='flex w-[90%] justify-around' >
         <div className='blogs-container text-center' >
-          <Blogs handleBookMark={handleBookMark} ></Blogs>
+          <Blogs
+            handleBookMark={handleBookMark}
+            handleMarkAsRead={handleMarkAsRead}
+          ></Blogs>
         </div>
         <div className='state-container bg-slate-400 text-center px-5' >
-          State Management
+          <p>Total reading time : {timeCount} </p>
+          <p>Total BookMark : </p>
           {
-            bookMark.map((mark)=> <State mark= {mark} ></State>)
+            bookMark.map((mark) => <State key={mark.id} mark={mark} ></State>)
           }
         </div>
       </div>
