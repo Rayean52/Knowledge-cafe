@@ -14,9 +14,16 @@ function App() {
     setBookMark([...bookMark, blog])
   }
 
-  const handleMarkAsRead = (time) => {
+  const handleMarkAsRead = (time, id) => {
     const newCount = timeCount + time;
     setTimeCount(newCount);
+    handleRemoveBookMark(id)
+
+  }
+
+  const handleRemoveBookMark = (id) =>{
+    const remainingBookMark = bookMark.filter((mark)=> mark.id!==id);
+    setBookMark(remainingBookMark)
   }
 
   return (
@@ -32,7 +39,7 @@ function App() {
         </div>
         <div className='state-container bg-slate-400 text-center px-5' >
           <p>Total reading time : {timeCount} </p>
-          <p>Total BookMark : </p>
+          <p>Total BookMark : {bookMark.length} </p>
           {
             bookMark.map((mark) => <State key={mark.id} mark={mark} ></State>)
           }

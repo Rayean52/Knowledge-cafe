@@ -25,4 +25,5 @@ const Blogs = ({ handleBookMark, handleMarkAsRead }) => {
     );
 };
 
+
 export default Blogs;
