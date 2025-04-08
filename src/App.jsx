@@ -30,16 +30,18 @@ function App() {
     <>
       <Navbar></Navbar>
 
-      <div className='flex w-[90%] justify-around' >
-        <div className='blogs-container text-center' >
+      <div className='flex w-8/12 mx-auto'>
+        <div className=' text-center mt-6' >
           <Blogs
             handleBookMark={handleBookMark}
             handleMarkAsRead={handleMarkAsRead}
           ></Blogs>
         </div>
-        <div className='state-container bg-slate-400 text-center px-5' >
-          <p>Total reading time : {timeCount} </p>
-          <p>Total BookMark : {bookMark.length} </p>
+        <div className=' w-[385px] text-center px-5 mt-6 mx-5 rounded-xl' >
+          <div className='bg-slate-700 text-white rounded-t-xl py-2'>
+            <p>Total reading time : {timeCount} </p>
+            <p>Total BookMark : {bookMark.length} </p>
+          </div>
           {
             bookMark.map((mark) => <State key={mark.id} mark={mark} ></State>)
           }

@@ -5,13 +5,13 @@ const Blog = ({ blog, handleBookMark, handleMarkAsRead }) => {
     const { title, cover_photo, author_img, author, hashtags, reading_time, id } = blog;
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-sm">
+            <div className="card bg-base-100 w-[725px] shadow-sm">
                 <figure>
                     <img
                         src={cover_photo}
                         alt="Shoes" />
                 </figure>
-                <div className='flex justify-around items-center' >
+                <div className='flex justify-between items-center' >
                     <div className='flex items-center gap-1' ><img className='w-16' src={author_img} ></img>
                         <h1>{author}</h1></div>
                     <button onClick={() => handleBookMark(blog)}><FaBookmark size={30} /></button>
